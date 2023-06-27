@@ -24,7 +24,7 @@ class Humor_jokes(Joke):
         querystring = {"max-length":"200","include-tags":"one_liner","min-rating":"7","exclude-tags":"nsfw","keywords":"rocket"}
 
         headers = {
-            "X-RapidAPI-Key": "ba8bf3b2b8msh37bd724d52be8b9p1369d2jsn9ae8de731a74",
+            "X-RapidAPI-Key": "{your key}",
             "X-RapidAPI-Host": "humor-jokes-and-memes.p.rapidapi.com"
         }
 
@@ -54,7 +54,7 @@ class Jokes_by_ninjas(Joke):
         url = "https://jokes-by-api-ninjas.p.rapidapi.com/v1/jokes"
 
         headers = {
-            "X-RapidAPI-Key": "ba8bf3b2b8msh37bd724d52be8b9p1369d2jsn9ae8de731a74",
+            "X-RapidAPI-Key": "{your key}",
             "X-RapidAPI-Host": "jokes-by-api-ninjas.p.rapidapi.com"
         }
 
@@ -84,7 +84,7 @@ class Dad_jokes(Joke):
         url = "https://dad-jokes.p.rapidapi.com/random/joke"
 
         headers = {
-            "X-RapidAPI-Key": "ba8bf3b2b8msh37bd724d52be8b9p1369d2jsn9ae8de731a74",
+            "X-RapidAPI-Key": "{your key}",
             "X-RapidAPI-Host": "dad-jokes.p.rapidapi.com"
         }
 
